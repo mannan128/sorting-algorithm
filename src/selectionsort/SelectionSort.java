@@ -5,14 +5,14 @@ public class SelectionSort {
     public static void main(String[] args) {
         int arr[] = {6,3,8,2,9,4,1};
 
-        slecSort(arr);
+        slectionSort(arr);
 
         for (int x : arr){
             System.out.print(x);
         }
     }
 
-    private static void slecSort(int[] arr) {
+    private static void slectionSort(int[] arr) {
 
         for (int x=0; x<arr.length-1; x++){
             int min = x;
